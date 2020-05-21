@@ -5,7 +5,8 @@ SCRIPT_DIR="$( cd "$( dirname "$0" )" && pwd )"
 # make install的安装路径
 CONFIGURE_PREFIX=${SCRIPT_DIR}/build
 # 用户自定义configure参数
-CONFIGURE_USER_PARAM="--disable-sse"
+# CONFIGURE_USER_PARAM="--disable-sse"
+CONFIGURE_USER_PARAM=""
 # ANDROID工具链路径
 ANDROID_TOOLCHAIN_PATH=/usr/local/Caskroom/android-ndk/21/android-ndk-r21/toolchains/llvm/prebuilt/darwin-x86_64
 # Make的并发核数
